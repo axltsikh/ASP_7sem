@@ -1,0 +1,27 @@
+﻿﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>"asdasd"</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body style="padding: 0px">
+    <header style="background-color:black; width:100%; position: absolute; top:0; left:0; height: 150px">
+        <div style="margin-left:-60px">
+            <h1 align="center" style="color: white; align-self: center">
+
+            </h1>
+            <div align="center">
+            
+            </div>
+            @RenderSection("Header")
+        </div>
+    </header>
+    <div class="container body-content" style="margin-top:175px" align="center">
+        @RenderBody()
+    </div>
+    @RenderSection("Footer")
+</body>
+</html>

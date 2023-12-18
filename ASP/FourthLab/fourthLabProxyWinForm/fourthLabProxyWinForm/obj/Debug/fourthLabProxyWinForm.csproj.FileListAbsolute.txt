@@ -1,0 +1,10 @@
+D:\Univ\ASP\FourthLab\fourthLabProxyWinForm\fourthLabProxyWinForm\obj\Debug\fourthLabProxyWinForm.csproj.AssemblyReference.cache
+D:\Univ\ASP\FourthLab\fourthLabProxyWinForm\fourthLabProxyWinForm\obj\Debug\fourthLabProxyWinForm.Properties.Resources.resources
+D:\Univ\ASP\FourthLab\fourthLabProxyWinForm\fourthLabProxyWinForm\obj\Debug\fourthLabProxyWinForm.csproj.GenerateResource.cache
+D:\Univ\ASP\FourthLab\fourthLabProxyWinForm\fourthLabProxyWinForm\obj\Debug\fourthLabProxyWinForm.csproj.CoreCompileInputs.cache
+D:\Univ\ASP\FourthLab\fourthLabProxyWinForm\fourthLabProxyWinForm\bin\Debug\fourthLabProxyWinForm.exe.config
+D:\Univ\ASP\FourthLab\fourthLabProxyWinForm\fourthLabProxyWinForm\bin\Debug\fourthLabProxyWinForm.exe
+D:\Univ\ASP\FourthLab\fourthLabProxyWinForm\fourthLabProxyWinForm\bin\Debug\fourthLabProxyWinForm.pdb
+D:\Univ\ASP\FourthLab\fourthLabProxyWinForm\fourthLabProxyWinForm\obj\Debug\fourthLabProxyWinForm.Form1.resources
+D:\Univ\ASP\FourthLab\fourthLabProxyWinForm\fourthLabProxyWinForm\obj\Debug\fourthLabProxyWinForm.exe
+D:\Univ\ASP\FourthLab\fourthLabProxyWinForm\fourthLabProxyWinForm\obj\Debug\fourthLabProxyWinForm.pdb

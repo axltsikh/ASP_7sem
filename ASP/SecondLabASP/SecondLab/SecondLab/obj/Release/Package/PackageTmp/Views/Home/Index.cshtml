@@ -1,0 +1,67 @@
+﻿<div style="display: flex;">
+    <div>
+        <input id="getButton" value="GET result" type="button" name="name">
+        <div id="getOutput"></div>
+    </div>
+    <div style="margin-left: 50px; margin-right: 50px;">
+        <input type="number" id="postValue">
+        <input type="button" id="postButton" value="POST result">
+        <div id="postOutput"></div>
+    </div>
+    <div>
+        <input type="number" id="putValue">
+        <input type="button" value="PUT result" id="putButton">
+        <div id="putOutput"></div>
+    </div>
+    <div style="margin-left: 50px;">
+        <input type="button" id="deleteButton" value="DELETE result">
+        <div id="deleteOutput"></div>
+    </div>
+</div>
+<script src="~/Scripts/jquery-3.4.1.js" type="text/javascript">
+</script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#getButton").click(function () {
+            $.ajax({
+                url: '/Home/GetResult',
+                dataType: 'json',
+                success: function (data) {
+                    $('#getOutput').html("Result value: " + data);
+                }
+            });
+        });
+        $("#postButton").click(function () {
+            $.ajax({
+                url: '/Home/PostResult?RESULT=' + document.getElementById("postValue").value,
+                method:'post',
+                dataType: 'html',
+                success: function (data) {
+                    $('#postOutput').html(data);
+                }
+            });
+        });
+        $("#putButton").click(function () {
+            $.ajax({
+                url: '/Home/PutResult?ADD=' + document.getElementById("putValue").value,
+                method: 'put',
+                dataType: 'html',
+                success: function (data) {
+                    $('#putOutput').html(data);
+                }
+            });
+        });
+        $("#deleteButton").click(function () {
+            $.ajax({
+                url: '/Home/DeleteResult',
+                method: 'delete',
+                dataType: 'html',
+                success: function (data) {
+                    $('#deleteOutput').html(data);
+                }
+            });
+        });
+    });
+</script>

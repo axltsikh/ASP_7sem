@@ -1,0 +1,7 @@
+D:\Univ\ASP\fifthLab\HttpClient\HttpClient\bin\Debug\HttpClient.exe.config
+D:\Univ\ASP\fifthLab\HttpClient\HttpClient\bin\Debug\HttpClient.exe
+D:\Univ\ASP\fifthLab\HttpClient\HttpClient\bin\Debug\HttpClient.pdb
+D:\Univ\ASP\fifthLab\HttpClient\HttpClient\obj\Debug\HttpClient.csproj.AssemblyReference.cache
+D:\Univ\ASP\fifthLab\HttpClient\HttpClient\obj\Debug\HttpClient.csproj.CoreCompileInputs.cache
+D:\Univ\ASP\fifthLab\HttpClient\HttpClient\obj\Debug\HttpClient.exe
+D:\Univ\ASP\fifthLab\HttpClient\HttpClient\obj\Debug\HttpClient.pdb

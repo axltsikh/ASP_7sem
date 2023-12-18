@@ -1,0 +1,12 @@
+﻿﻿@model ThirdLab.Models.Student
+<div>
+    <input type="hidden" value="@Model.id" name="id" id="modelId" />
+    <div style="display: inline-block; border: 1px solid black; padding: 0px; width: 50px; margin-left: 0px">
+        @Model.id
+    </div>
+    <input type="text" value="@Model.name" name="name" id="@Model.id name" style="margin-left:-1px"/>
+    <input type="text" value="@Model.phone" name="phone" id="@Model.id phone" style="margin-left:-1px"/>
+    <button onclick="updateStudent('@Model.studentLinks[1].Href',document.getElementById('@Model.id name').value,document.getElementById('@Model.id phone').value)">Редактировать</button>
+    <button onclick="deleteStudent('@Model.studentLinks[2].Href')">Удалить</button>
+
+</div>

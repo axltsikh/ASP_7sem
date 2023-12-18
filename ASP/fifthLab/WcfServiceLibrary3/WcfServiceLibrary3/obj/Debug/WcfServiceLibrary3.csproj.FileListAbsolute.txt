@@ -1,0 +1,7 @@
+D:\Univ\ASP\fifthLab\WcfServiceLibrary3\WcfServiceLibrary3\bin\Debug\WcfServiceLibrary3.dll.config
+D:\Univ\ASP\fifthLab\WcfServiceLibrary3\WcfServiceLibrary3\bin\Debug\WcfServiceLibrary3.dll
+D:\Univ\ASP\fifthLab\WcfServiceLibrary3\WcfServiceLibrary3\bin\Debug\WcfServiceLibrary3.pdb
+D:\Univ\ASP\fifthLab\WcfServiceLibrary3\WcfServiceLibrary3\obj\Debug\WcfServiceLibrary3.csproj.CoreCompileInputs.cache
+D:\Univ\ASP\fifthLab\WcfServiceLibrary3\WcfServiceLibrary3\obj\Debug\WcfServiceLibrary3.dll
+D:\Univ\ASP\fifthLab\WcfServiceLibrary3\WcfServiceLibrary3\obj\Debug\WcfServiceLibrary3.pdb
+D:\Univ\ASP\fifthLab\WcfServiceLibrary3\WcfServiceLibrary3\obj\Debug\WcfServiceLibrary3.csproj.AssemblyReference.cache

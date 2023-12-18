@@ -1,0 +1,14 @@
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\bin\Debug\fourthLabWinForms.exe.config
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\bin\Debug\fourthLabWinForms.exe
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\bin\Debug\fourthLabWinForms.pdb
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\bin\Debug\fourthLab.dll
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\bin\Debug\fourthLab.pdb
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\bin\Debug\fourthLab.dll.config
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\obj\Debug\fourthLabWinForms.csproj.AssemblyReference.cache
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\obj\Debug\fourthLabWinForms.Form1.resources
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\obj\Debug\fourthLabWinForms.Properties.Resources.resources
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\obj\Debug\fourthLabWinForms.csproj.GenerateResource.cache
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\obj\Debug\fourthLabWinForms.csproj.CoreCompileInputs.cache
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\obj\Debug\fourthLabWinForms.csproj.CopyComplete
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\obj\Debug\fourthLabWinForms.exe
+D:\Univ\ASP\FourthLab\fourthLabWinForms\fourthLabWinForms\obj\Debug\fourthLabWinForms.pdb

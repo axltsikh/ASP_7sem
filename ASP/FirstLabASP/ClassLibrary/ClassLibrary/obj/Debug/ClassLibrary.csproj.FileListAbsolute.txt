@@ -1,0 +1,13 @@
+D:\Univ\ASP\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\Univ\ASP\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\Univ\ASP\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\Univ\ASP\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\Univ\ASP\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.pdb
+D:\Univ\ASP\FirstLabASP\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\Univ\ASP\FirstLabASP\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\Univ\ASP\FirstLabASP\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\Univ\ASP\FirstLabASP\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\Univ\ASP\FirstLabASP\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.pdb
+D:\Univ\ASP\FirstLabASP\ClassLibrary\ClassLibrary\bin\Debug\Newtonsoft.Json.dll
+D:\Univ\ASP\FirstLabASP\ClassLibrary\ClassLibrary\bin\Debug\Newtonsoft.Json.xml
+D:\Univ\ASP\FirstLabASP\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csproj.CopyComplete

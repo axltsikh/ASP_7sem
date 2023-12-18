@@ -1,0 +1,13 @@
+D:\Univ\ASP\SixthLab\WcfService5\WcfService5\obj\Debug\WcfService5.csproj.AssemblyReference.cache
+D:\Univ\ASP\SixthLab\WcfService5\WcfService5\obj\Debug\WcfService5.csproj.CoreCompileInputs.cache
+D:\Univ\ASP\SixthLab\WcfService5\WcfService5\bin\WcfService5.dll.config
+D:\Univ\ASP\SixthLab\WcfService5\WcfService5\bin\WcfService5.dll
+D:\Univ\ASP\SixthLab\WcfService5\WcfService5\bin\WcfService5.pdb
+D:\Univ\ASP\SixthLab\WcfService5\WcfService5\bin\EntityFramework.dll
+D:\Univ\ASP\SixthLab\WcfService5\WcfService5\bin\EntityFramework.SqlServer.dll
+D:\Univ\ASP\SixthLab\WcfService5\WcfService5\bin\EntityFramework.xml
+D:\Univ\ASP\SixthLab\WcfService5\WcfService5\bin\EntityFramework.SqlServer.xml
+D:\Univ\ASP\SixthLab\WcfService5\WcfService5\bin\ru\EntityFramework.resources.dll
+D:\Univ\ASP\SixthLab\WcfService5\WcfService5\obj\Debug\WcfService5.csproj.CopyComplete
+D:\Univ\ASP\SixthLab\WcfService5\WcfService5\obj\Debug\WcfService5.dll
+D:\Univ\ASP\SixthLab\WcfService5\WcfService5\obj\Debug\WcfService5.pdb

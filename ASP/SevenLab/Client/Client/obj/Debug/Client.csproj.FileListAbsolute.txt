@@ -1,0 +1,7 @@
+D:\Univ\ASP\SevenLab\Client\Client\bin\Debug\Client.exe.config
+D:\Univ\ASP\SevenLab\Client\Client\bin\Debug\Client.exe
+D:\Univ\ASP\SevenLab\Client\Client\bin\Debug\Client.pdb
+D:\Univ\ASP\SevenLab\Client\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+D:\Univ\ASP\SevenLab\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\Univ\ASP\SevenLab\Client\Client\obj\Debug\Client.exe
+D:\Univ\ASP\SevenLab\Client\Client\obj\Debug\Client.pdb

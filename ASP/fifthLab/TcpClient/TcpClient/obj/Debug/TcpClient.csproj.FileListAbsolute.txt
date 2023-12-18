@@ -1,0 +1,11 @@
+D:\Univ\ASP\fifthLab\TcpClient\TcpClient\bin\Debug\TcpClient.exe.config
+D:\Univ\ASP\fifthLab\TcpClient\TcpClient\bin\Debug\TcpClient.exe
+D:\Univ\ASP\fifthLab\TcpClient\TcpClient\bin\Debug\TcpClient.pdb
+D:\Univ\ASP\fifthLab\TcpClient\TcpClient\bin\Debug\WcfServiceLibrary3.dll
+D:\Univ\ASP\fifthLab\TcpClient\TcpClient\bin\Debug\WcfServiceLibrary3.pdb
+D:\Univ\ASP\fifthLab\TcpClient\TcpClient\bin\Debug\WcfServiceLibrary3.dll.config
+D:\Univ\ASP\fifthLab\TcpClient\TcpClient\obj\Debug\TcpClient.csproj.AssemblyReference.cache
+D:\Univ\ASP\fifthLab\TcpClient\TcpClient\obj\Debug\TcpClient.csproj.CoreCompileInputs.cache
+D:\Univ\ASP\fifthLab\TcpClient\TcpClient\obj\Debug\TcpClient.csproj.CopyComplete
+D:\Univ\ASP\fifthLab\TcpClient\TcpClient\obj\Debug\TcpClient.exe
+D:\Univ\ASP\fifthLab\TcpClient\TcpClient\obj\Debug\TcpClient.pdb

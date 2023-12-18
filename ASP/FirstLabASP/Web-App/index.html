@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex;">
+        <div>
+            <button onclick="getResult()">GET result</button>
+            <div id="getOutput"></div>
+        </div>
+        
+        <div style="margin-left: 50px; margin-right: 50px;">
+            <input type="number" id="postValue">
+            <button onclick="postResult()">POST result</button>
+            <div id="postOutput"></div>
+        </div>
+        <div>
+            <input type="number" id="putValue">
+            <button onclick="putResult()">PUT result</button>
+            <div id="putOutput"></div>
+        </div>
+        <div style="margin-left: 50px;">
+            <button onclick="deleteResult()">DELETE result</button>
+            <div id="deleteOutput"></div>
+        </div>
+    </div>
+</body>
+<script>
+    async function getResult(){
+        let response = await fetch("http://localhost:5001/asd.taa",{
+            method: 'GET',
+            headers:{
+                'Content-Type': 'application/json;charset=utf-8',
+            },
+        })
+        if(response.ok === true){
+            console.log(response);
+            const asd = await response.json()
+            console.log(asd);
+            document.getElementById("getOutput").innerHTML = "Result: " + asd
+        }
+    }
+    async function postResult(){
+        console.log(document.getElementById("postValue").value);
+        let response = await fetch("http://localhost:5001/asd.taa?RESULT=" + document.getElementById("postValue").value,{
+            method: 'POST',
+            headers:{
+                'Content-Type': 'application/json;charset=utf-8'
+            },
+        })
+        if(response.ok === true){
+            const asd = await response.json()
+            document.getElementById("postOutput").innerHTML = "Result value increased by " + asd
+        }
+    }
+    async function putResult(){
+        let response = await fetch("http://localhost:5001/asd.taa?ADD=" + document.getElementById("putValue").value,{
+            method: 'PUT',
+            headers:{
+                'Content-Type': 'application/json;charset=utf-8'
+            },
+        })
+        if(response.ok === true){
+            const asd = await response.json()
+            document.getElementById("putOutput").innerHTML = "Added to stack:  " + asd
+        }
+    }
+    async function deleteResult(){
+        let response = await fetch("http://localhost:5001/asd.taa",{
+            method: 'DELETE',
+            headers:{
+                'Content-Type': 'application/json;charset=utf-8'
+            },
+        })
+        if(response.ok === true){
+            const asd = await response.json()
+            console.log(asd);
+            document.getElementById("deleteOutput").innerHTML = "Removed elements from stack: " + asd
+        }
+    }
+</script>
+</html>

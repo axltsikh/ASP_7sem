@@ -1,0 +1,71 @@
+﻿@{
+    Layout = "~/Views/Shared/MyMasterView.cshtml";
+}
+@section Header{
+    <header align="center" style="color:white">Список студентов</header>
+    }
+@foreach (ThirdLab.Models.Student student in ViewBag.Students)
+{
+    @Html.Partial("PartialView", student);
+}
+<div>
+    <div>Введите имя</div>
+    <input type="text" name="name" id="addName" />
+    <br />
+    <div>Введите номер</div>
+    <input type="text" name="phone" id="addPhone" />
+    <br />
+    <button onclick="addStudent('http://localhost:5000/Home/JSON/Add/')">Добавить</button>
+</div>
+@section Footer{
+    <footer style="background-color:black; position:absolute; bottom:0; left:0; width:100%">
+        <h4 style="color:black">asd                       </h4>
+    </footer>}
+
+<script>
+    async function addStudent(source) {
+        let response = await fetch(source + "?id=0" + "&name=" + document.getElementById('addName').value + "&phone=" + document.getElementById('addPhone').value, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json;charset=utf-8'
+            },
+        })
+        if (response.status === 200) {
+            console.log(response.body);
+            const asd = await response.json().then((value) => {
+                alert(JSON.stringify(value));
+            })
+            location.reload()
+        }
+    }
+    async function deleteStudent(source) {
+        console.log("delete")
+        let response = await fetch(source, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json;charset=utf-8'
+            },
+        })
+        if (response.status === 200) {
+            console.log(response.body);
+            const asd = await response.json().then((value) => {
+                alert(JSON.stringify(value));
+            })
+            location.reload()
+        }
+    }
+    async function updateStudent(source,name,phone) {
+        let response = await fetch(source + "&name=" + name +"&phone="+phone, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json;charset=utf-8'
+            },
+        })
+        if (response.status === 200) {
+            console.log(response.body);
+            const asd = await response.json()
+            alert(JSON.stringify(asd));
+            location.reload();
+        }
+    }
+</script>

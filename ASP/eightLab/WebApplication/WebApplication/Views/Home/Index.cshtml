@@ -1,0 +1,224 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div style="display: flex;">
+    <div>
+        <input type="number" id="getMK">
+        <button id="getMButton">GetM</button>
+        <div id="getM"></div>
+    </div>
+
+    <div style="margin-left: 50px; margin-right: 50px;">
+        <input type="text" id="setMK">
+        <input type="number" id="setMX">
+        <button id="setMButton">SetM</button>
+        <div id="setM"></div>
+    </div>
+    <div>
+        <input type="text" id="addMK">
+        <input type="number" id="addMX">
+        <button id="addMButton">AddM</button>
+        <div id="addM"></div>
+    </div>
+    <div style="margin-left: 50px;">
+        <input type="text" id="subMK">
+        <input type="number" id="subMX">
+        <button id="subMButton">SubM</button>
+        <div id="subM"></div>
+    </div>
+    <div style="margin-left: 50px; margin-right: 50px;">
+        <input type="text" id="mulMK">
+        <input type="number" id="mulMX">
+        <button id="mulMButton">MulM</button>
+        <div id="mulM"></div>
+    </div>
+    <div style="margin-left: 50px; margin-right: 50px;">
+        <input type="text" id="divMK">
+        <input type="number" id="divMX">
+        <button id="divMButton">DivM</button>
+        <div id="divM"></div>
+    </div>
+    <div style="margin-left: 50px; margin-right: 50px;">
+        <button id="errorExitButton">ErrorExit</button>
+        <div id="errorExit"></div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-3.4.1.js" type="text/javascript">
+</script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.js" type="text/javascript">
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#getMButton").click(function () {
+            k = document.getElementById("getMK").value;
+            var payload = {
+                Jsonrpc: "2.0",
+                Method: "GetM",
+                Id: "1",
+                Params: [
+                    k
+                ]
+            };
+            $.ajax({
+                url: 'https://localhost:44348/api/Home/executeSingle',
+                method: 'POST',
+                data: payload,
+                success: function (data) {
+                    $('#getM').html("Result: " + JSON.stringify(data));
+                },
+                xhrFields: {
+                    withCredentials:true
+                }
+            });
+        });
+        $("#setMButton").click(function () {
+            k = document.getElementById("setMK").value;
+            x = document.getElementById("setMX").value;
+            var payload = {
+                Jsonrpc: "2.0",
+                Method: "SetM",
+                Id: "1",
+                Params: [
+                    k, x
+                ]
+            };
+            $.ajax({
+                url: 'https://localhost:44348/api/Home/executeSingle',
+
+                method: 'POST',
+                data: payload,
+                success: function (data) {
+                    $('#setM').html("Result: " + JSON.stringify(data));
+                },
+                xhrFields: {
+                    withCredentials:true
+                }
+            });
+        });
+        $("#addMButton").click(function () {
+            k = document.getElementById("addMK").value;
+            x = document.getElementById("addMX").value;
+            alert(k);
+            var payload = {
+                Jsonrpc: "2.0",
+                Method: "AddM",
+                Id: "1",
+                Params: [
+                    k, x
+                ]
+            };
+            $.ajax({
+                url: 'https://localhost:44348/api/Home/executeSingle',
+
+                method: 'POST',
+                data: payload,
+                success: function (data) {
+                    $('#addM').html("Result: " + JSON.stringify(data));
+                },
+                xhrFields: {
+                    withCredentials: true
+                }
+            });
+        });
+        $("#subMButton").click(function () {
+            k = document.getElementById("subMK").value;
+            x = document.getElementById("subMX").value;
+            alert(k);
+            var payload = {
+                Jsonrpc: "2.0",
+                Method: "SubM",
+                Id: "1",
+                Params: [
+                    k, x
+                ]
+            };
+            $.ajax({
+                url: 'https://localhost:44348/api/Home/executeSingle',
+
+                method: 'POST',
+                data: payload,
+                success: function (data) {
+                    $('#subM').html("Result: " + JSON.stringify(data));
+                },
+                xhrFields: {
+                    withCredentials: true
+                }
+            });
+        });
+        $("#mulMButton").click(function () {
+            k = document.getElementById("mulMK").value;
+            x = document.getElementById("mulMX").value;
+            alert(k);
+            var payload = {
+                Jsonrpc: "2.0",
+                Method: "MulM",
+                Id: "1",
+                Params: [
+                    k, x
+                ]
+            };
+            $.ajax({
+                url: 'https://localhost:44348/api/Home/executeSingle',
+
+                method: 'POST',
+                data: payload,
+                success: function (data) {
+                    $('#mulM').html("Result: " + JSON.stringify(data));
+                },
+                xhrFields: {
+                    withCredentials: true
+                }
+            });
+        });
+        $("#divMButton").click(function () {
+            k = document.getElementById("divMK").value;
+            x = document.getElementById("divMX").value;
+            alert(k);
+            var payload = {
+                Jsonrpc: "2.0",
+                Method: "DivM",
+                Id: "1",
+                Params: [
+                    k, x
+                ]
+            };
+            $.ajax({
+                url: 'https://localhost:44348/api/Home/executeSingle',
+
+                method: 'POST',
+                data: payload,
+                success: function (data) {
+                    $('#divM').html("Result: " + JSON.stringify(data));
+                },
+                xhrFields: {
+                    withCredentials: true
+                }
+            });
+        });
+        $("#errorExitButton").click(function () {
+            k = document.getElementById("getMK").value;
+            var payload = {
+                Jsonrpc: "2.0",
+                Method: "ErrorExit",
+                Id: "1",
+                Params: [
+                    k
+                ]
+            };
+            $.ajax({
+                url: 'https://localhost:44348/api/Home/executeSingle',
+                method: 'POST',
+                data: payload,
+                success: function (data) {
+                    $('#errorExit').html("Result: " + JSON.stringify(data));
+                },
+                xhrFields: {
+                    withCredentials: true
+                }
+            });
+        });
+    });
+</script>

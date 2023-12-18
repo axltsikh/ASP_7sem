@@ -1,0 +1,14 @@
+D:\Univ\ASP\SevenLab\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.exe.config
+D:\Univ\ASP\SevenLab\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.exe
+D:\Univ\ASP\SevenLab\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.pdb
+D:\Univ\ASP\SevenLab\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csproj.AssemblyReference.cache
+D:\Univ\ASP\SevenLab\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csproj.CoreCompileInputs.cache
+D:\Univ\ASP\SevenLab\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.exe
+D:\Univ\ASP\SevenLab\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.pdb
+D:\Univ\ASP\SevenLab\works\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.exe.config
+D:\Univ\ASP\SevenLab\works\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.exe
+D:\Univ\ASP\SevenLab\works\WebServiceClient\WebServiceClient\bin\Debug\WebServiceClient.pdb
+D:\Univ\ASP\SevenLab\works\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csproj.AssemblyReference.cache
+D:\Univ\ASP\SevenLab\works\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.csproj.CoreCompileInputs.cache
+D:\Univ\ASP\SevenLab\works\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.exe
+D:\Univ\ASP\SevenLab\works\WebServiceClient\WebServiceClient\obj\Debug\WebServiceClient.pdb

@@ -1,0 +1,3 @@
+http://localhost:53920/WcfDataService1.svc/Notes?$filter=subject eq 'Програмирование интернет сервервов'
+http://localhost:53920/WcfDataService1.svc/Notes?$orderby=id%20desc
+http://localhost:53920/WcfDataService1.svc/Notes?$select=subject
